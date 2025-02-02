@@ -19,9 +19,10 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
-              Discover Your Dream Property in Mulugu
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
+              Marvel Constructions by Ashraf
             </h1>
+            <p className="text-2xl text-white/90 mb-6">Your dream home, our commitment</p>
           </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -29,7 +30,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-gray-200 mb-8"
           >
-            Premium plots and properties crafted for your lifestyle
+            Premium plots and luxury homes in Mulugu
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

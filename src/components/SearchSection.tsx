@@ -43,6 +43,7 @@ const SearchSection = () => {
               >
                 <option value="">Select Area</option>
                 <option value="mulugu">Mulugu</option>
+                <option value="hanmakonda">Hanmakonda</option>
                 <option value="warangal">Warangal</option>
                 <option value="hyderabad">Hyderabad</option>
               </select>
