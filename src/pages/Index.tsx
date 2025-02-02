@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Instagram } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import SearchSection from "@/components/SearchSection";
@@ -29,7 +30,7 @@ const Index = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Property Cards */}
+            {/* Hyderabad Property */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -39,12 +40,12 @@ const Index = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1518495973542-4542c06a5843"
-                alt="Property"
+                alt="Property in Hyderabad"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  Luxury 3 BHK Villa with Pool
+                  Luxury 3 BHK Villa in Hyderabad
                 </h3>
                 <p className="text-gray-600 mb-4">
                   Spacious 3 BHK villa with private swimming pool and garden
@@ -58,6 +59,7 @@ const Index = () => {
               </div>
             </motion.div>
 
+            {/* Warangal Property */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -67,15 +69,15 @@ const Index = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
-                alt="Property"
+                alt="Property in Warangal"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  Modern 3 BHK with Pool View
+                  Modern 3 BHK in Warangal
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Contemporary 3 BHK flat overlooking community pool
+                  Contemporary 3 BHK flat with community pool and modern amenities
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-primary font-semibold">₹1.2 Cr</span>
@@ -86,6 +88,7 @@ const Index = () => {
               </div>
             </motion.div>
 
+            {/* Hanmakonda Property */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -95,15 +98,15 @@ const Index = () => {
             >
               <img
                 src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
-                alt="Property"
+                alt="Property in Hanmakonda"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  Premium 3 BHK Pool Villa
+                  Premium 3 BHK in Hanmakonda
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Luxurious 3 BHK villa with infinity pool and modern amenities
+                  Luxurious 3 BHK with infinity pool and modern amenities
                 </p>
                 <div className="flex justify-between items-center">
                   <span className="text-primary font-semibold">₹1.8 Cr</span>
@@ -133,12 +136,23 @@ const Index = () => {
             <p className="text-gray-600 mb-8">
               Our team is here to help you with any questions
             </p>
-            <a
-              href="tel:+918340902453"
-              className="inline-flex items-center justify-center bg-primary text-white px-8 py-4 rounded-md hover:bg-primary/90 transition-colors"
-            >
-              Call Us: +91 8340 902 453
-            </a>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <a
+                href="tel:+918340902453"
+                className="inline-flex items-center justify-center bg-primary text-white px-8 py-4 rounded-md hover:bg-primary/90 transition-colors"
+              >
+                Call Us: +91 8340 902 453
+              </a>
+              <a
+                href="https://www.instagram.com/ashraf.mohmad.77?igsh=dHpiZXg3Yng3bzA5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-accent text-white px-8 py-4 rounded-md hover:bg-accent/90 transition-colors gap-2"
+              >
+                <Instagram className="w-5 h-5" />
+                Follow Us on Instagram
+              </a>
+            </div>
           </motion.div>
         </div>
       </section>
