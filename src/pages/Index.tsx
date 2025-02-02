@@ -39,8 +39,8 @@ const Index = () => {
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <img
-                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843"
-                alt="Property in Hyderabad"
+                src="https://images.unsplash.com/photo-1527576539890-dfa815648363"
+                alt="Luxury Apartment in Hyderabad"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -68,8 +68,8 @@ const Index = () => {
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <img
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb"
-                alt="Property in Warangal"
+                src="https://images.unsplash.com/photo-1488972685288-c3fd157d7c7a"
+                alt="Modern Apartment in Warangal"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
@@ -97,8 +97,8 @@ const Index = () => {
               className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <img
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625"
-                alt="Property in Hanmakonda"
+                src="https://images.unsplash.com/photo-1460574283810-2aab119d8511"
+                alt="Premium Apartment in Hanmakonda"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
